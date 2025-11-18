@@ -1,9 +1,12 @@
 {
   "name": "prisma-orm-learning",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev1": "ts-node-dev --respawn --transpile-only ./src/create.ts",
+    "create": "tsx watch ./src/create.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@prisma/client": "^6.19.0"
+    "@prisma/client": "^6.19.0",
+    "ts-node-dev": "^2.0.0"
   }
 }

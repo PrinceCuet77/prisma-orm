@@ -5,11 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev1": "ts-node-dev --respawn --transpile-only ./src/create.ts",
-    "create": "tsx watch ./src/create.ts"
+    "format": "prisma format",
+    "format:prisma": "npx prisma format",
+    "create-dev": "ts-node-dev --respawn --transpile-only ./src/create.ts",
+    "delete-all": "tsx ./src/delete-all.ts",
+    "create-user": "tsx ./src/create-user.ts",
+    "create-movie": "tsx ./src/create-movie.ts",
+    "create-review": "tsx ./src/create-review.ts",
+    "update-user": "tsx ./src/update-user.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rezoan Shakil Prince",
   "license": "ISC",
   "description": "",
   "devDependencies": {

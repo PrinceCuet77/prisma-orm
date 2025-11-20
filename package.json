@@ -14,7 +14,9 @@
     "create-review": "tsx ./src/create-review.ts",
     "update-user": "tsx ./src/update-user.ts",
     "migration-update-user": "tsx ./src/after-migration-update/update-user.ts",
-    "basic-query": "tsx ./src/query/basic-query.ts"
+    "basic-query": "tsx ./src/query/basic-query.ts",
+    "advance-query": "tsx ./src/query/advance-query.ts",
+    "aggregate-query": "tsx ./src/query/aggregate-query.ts"
   },
   "keywords": [],
   "author": "Rezoan Shakil Prince",

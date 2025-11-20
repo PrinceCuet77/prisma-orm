@@ -8,7 +8,7 @@
 
 ## Advanced Query
 
-1. Find all movies in the `Sci-Fi` genre released before `2015`
+1. Find all movies in the `Sci-Fi` genre released before `2009`
 2. Find users who have both reviewed a movie `AND` have movies in their `favoriteMovies`
 3. Find reviews with ratings between `4` and `7` stars
 4. Get the 5 most recently released movies
